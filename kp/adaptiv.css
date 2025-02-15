@@ -1,0 +1,491 @@
+/*адаптация*/
+@media only screen and (min-width: 1140px) and (max-width: 1320px) {}
+
+@media only screen and (min-width: 960px) and (max-width: 1140px) {
+
+    /*index*/
+
+    .button_group {
+        display: flex;
+        width: 100%;
+        height: 10vw;
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .button_group button {
+        width: 100%;
+        height: 10vw;
+        font-size: 1.5vw;
+    }
+
+    .button_in_menu {
+        display: inline-block;
+        width: 33.3%;
+
+    }
+
+    .vnutri {
+        top: 10vw;
+        left: 10px;
+        width: 75vw;
+        height: auto;
+    }
+
+    .for_slider {
+        width: 65vw;
+        height: 30vw;
+        top: 15vw;
+        left: 20px
+    }
+
+    footer {
+        bottom: -5vw;
+    }
+
+    /*films*/
+
+    .q1 {
+        width: 45%;
+        height: 30%;
+        display: block;
+        background-color: rgb(197, 197, 197);
+        float: left;
+        margin: 20px 24px 0;
+    }
+    .films {
+        position: absolute;
+        top: 70%;
+    }
+    img {
+        width: 100%;
+        height: 250px;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+}
+
+@media only screen and (min-width: 720px) and (max-width: 960px) {
+
+    /*index*/
+    .button_group {
+        display: flex;
+        width: 100%;
+        height: 10vw;
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .button_group button {
+        width: 100%;
+        height: 10vw;
+        font-size: 2vw;
+    }
+
+    .button_in_menu {
+        display: inline-block;
+        width: 33.3%;
+
+    }
+
+    .vnutri {
+        left: 0;
+        top: 15vw;
+        width: 100vw;
+        height: auto;
+    }
+
+    .for_slider {
+        width: 75vw;
+        height: 35vw;
+        left: 0;
+        top: 15vw;
+        margin: 0 12.5vw;
+    }
+
+    .menu {
+        width: 75vw;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 4vw;
+        margin: 0;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 2vw;
+        width: auto;
+        margin: 0;
+    }
+
+    .slider-container {
+        height: 35vw;
+        width: 75vw;
+        overflow: hidden;
+    }
+
+    footer {
+        bottom: -5vw;
+    }
+    p {
+        margin-left: 0;
+        margin: 0;
+        height: auto;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Book Antiqua";
+    }
+
+    /*films*/
+    .q1 {
+        width: 45%;
+        height: 20%;
+        display: block;
+        background-color: rgb(197, 197, 197);
+        float: left;
+        margin: 10px 2.5% 10px;
+    }
+    .films {
+        display: inline;
+        position: absolute;
+        top: 50%;
+    }
+    img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    /*login, registr*/
+    .form-box {
+        width: 45vw;
+    }
+    .inputbox {
+        margin: 20px 0;
+        width: 35vw;
+    }
+    /*info films*/
+    .window {
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+    .trailer {
+        position: sticky;
+        width: 90vw;
+        height: 62vh;
+    }
+    .video {
+        width: 60vw;
+    }
+    .opisanie{
+        width: 80vw;
+    }
+    .info {
+        position: sticky;
+        width: 90vw;
+        height: 45vh;
+    }
+    table {
+        width: 85vw;
+        margin: 0 2.5vw;
+    }
+    caption {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    table td {
+        width: 250px;
+        padding-bottom: 10px;
+    
+    }
+
+}
+
+@media only screen and (min-width: 540px) and (max-width: 720px) {
+
+    /*index*/
+    .button_group {
+        display: flex;
+        width: 100%;
+        height: 15vw;
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .button_group button {
+        width: 100%;
+        height: 15vw;
+        font-size: 2vw;
+    }
+
+    .button_in_menu {
+        display: inline-block;
+        width: 33.3%;
+
+    }
+
+    .vnutri {
+        left: 0;
+        top: 20vw;
+        width: 100vw;
+        height: auto;
+    }
+
+    .for_slider {
+        width: 75vw;
+        height: 35vw;
+        left: 0;
+        top: 15vw;
+        margin: 0 12.5vw;
+    }
+
+    .menu {
+        width: 75vw;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    footer {
+        bottom: -5vw;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 3vw;
+        width: auto;
+        margin: 0;
+    }
+
+    .slider-container {
+        height: 35vw;
+        width: 75vw;
+        overflow: hidden;
+    }
+    p {
+        margin-left: 0;
+        margin: 0;
+        height: auto;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Book Antiqua";
+    }
+    .q1 {
+        width: 45%;
+        height: 20%;
+        display: block;
+        background-color: rgb(197, 197, 197);
+        float: left;
+        margin: 10px 2.5% 10px;
+    }
+    .films {
+        display: inline;
+        position: absolute;
+        top: 50%;
+    }
+    img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+
+    /*login*/
+    .form-box {
+        width: 50vw;
+    }
+    .inputbox {
+        margin: 20px 0;
+        width: 40vw;
+    }
+    /*info films*/
+    .window {
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+    .trailer {
+        position: sticky;
+        width: 90vw;
+        height: 62vh;
+    }
+    .video {
+        height: 30vh;
+        width: 60vw;
+    }
+    .opisanie{
+        width: 80vw;
+    }
+    .info {
+        position: sticky;
+        width: 90vw;
+        height: 45vh;
+    }
+    table {
+        width: 85vw;
+        margin: 0 2.5vw;
+    }
+    caption {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    table td {
+        width: 250px;
+        padding-bottom: 10px;
+    
+    }
+
+}
+
+@media only screen and (min-width: 100px) and (max-width: 540px) {
+
+    /*index*/
+    .button_group {
+        display: flex;
+        width: 100%;
+        height: 20vw;
+        position: absolute;
+        left: 0px;
+        margin: 0px;
+    }
+
+    .button_group button {
+        width: 100%;
+        height: 20vw;
+        font-size: 3vw;
+    }
+
+    .button_in_menu {
+        display: inline-block;
+        width: 33.3%;
+
+    }
+
+    .vnutri {
+        left: 0;
+        top: 25vw;
+        width: 100vw;
+        height: auto;
+    }
+
+    .for_slider {
+        width: 80vw;
+        height: 35vw;
+        left: 0;
+        top: 15vw;
+        margin: 0 12.5vw;
+    }
+
+    .menu {
+        width: 80vw;
+    }
+
+    h1 {
+        text-align: center;
+        font-size: 5vw;
+        margin: 0;
+    }
+
+    footer {
+        bottom: -5vw;
+    }
+
+    h6 {
+        text-align: center;
+        font-size: 4vw;
+        width: auto;
+        margin: 0;
+    }
+
+    .slider-container {
+        height: 35vw;
+        width: 80vw;
+        overflow: hidden;
+    }
+    p {
+        margin: 0;
+        height: auto;
+        color: rgb(255, 255, 255);
+        text-align: center;
+        font-family: "Book Antiqua";
+    }
+    .q1 {
+        width: 90%;
+        height: 90%;
+        display: block;
+        background-color: rgb(197, 197, 197);
+        float: left;
+        margin: 10px 5% 10px;
+    }
+    .films {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 50%;
+    }
+    img {
+        width: 100%;
+        height: 170px;
+        object-fit: cover;
+        opacity: 0.5;
+    }
+    /*login*/
+    .form-box {
+        width: 55vw;
+    }
+    .inputbox {
+        margin: 20px 0;
+        width: 45vw;
+    }
+    /*info films*/
+    .window {
+        display: flex;
+        flex-direction: column;
+        height: 130vh;
+    }
+    .trailer {
+        position: sticky;
+        width: 90vw;
+        height: 62vh;
+    }
+    .video {
+        height: 30vh;
+        width: 60vw;
+    }
+    .opisanie{
+        width: 80vw;
+    }
+    .info {
+        position: sticky;
+        width: 90vw;
+        height: 45vh;
+    }
+    table {
+        width: 85vw;
+        margin: 0 2.5vw;
+    }
+    caption {
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 40px;
+    }
+    table td {
+        width: 250px;
+        padding-bottom: 10px;
+    
+    }
+}

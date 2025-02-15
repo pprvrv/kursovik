@@ -1,0 +1,235 @@
+    @media only screen and (min-width: 960px) and (max-width: 1140px) {
+        /*index*/
+    
+        .button_group {
+            display: flex;
+            width: 100%;
+            height: 10vw;
+            position: absolute;
+            left: 0px;
+            margin: 0px;
+        }
+        .button_group button {
+            width: 100%;
+            height: 10vw;
+            font-size: 1.5vw;
+        }
+        .button_in_menu {
+            display: inline-block;
+            width: 33.3%;
+    
+        }
+        .vnutri {
+            top: 10vw;
+            left: 10px;
+            width: 75vw;
+            height: auto;
+        }
+        .for_slider {
+            width: 65vw;
+            height: 30vw;
+            top: 15vw;
+            left: 20px
+        }
+        footer {
+            bottom: -5vw;
+        }
+    }
+    
+    @media only screen and (min-width: 720px) and (max-width: 960px) {
+    
+        /*index*/
+        .button_group {
+            display: flex;
+            width: 100%;
+            height: 10vw;
+            position: absolute;
+            left: 0px;
+            margin: 0px;
+        }
+        .button_group button {
+            width: 100%;
+            height: 10vw;
+            font-size: 2vw;
+        }
+        .button_in_menu {
+            display: inline-block;
+            width: 33.3%;
+    
+        }
+        .vnutri {
+            left: 0;
+            top: 15vw;
+            width: 100vw;
+            height: auto;
+        }
+        .for_slider {
+            width: 75vw;
+            height: 35vw;
+            left: 0;
+            top: 15vw;
+            margin: 0 12.5vw;
+        }
+    
+        .menu {
+            width: 75vw;
+        }
+        h1 {
+            text-align: center;
+            font-size: 4vw;
+            margin: 0;
+        }
+        h6 {
+            text-align: center;
+            font-size: 2vw;
+            width: auto;
+            margin: 0;
+        }
+        .slider-container {
+            height: 35vw;
+            width: 75vw;
+            overflow: hidden;
+        }
+        footer {
+            bottom: -5vw;
+        }
+        p {
+            margin-left: 0;
+            margin: 0;
+            height: auto;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: "Book Antiqua";
+        }
+    }
+    
+    @media only screen and (min-width: 540px) and (max-width: 720px) {
+    
+        /*index*/
+        .button_group {
+            display: flex;
+            width: 100%;
+            height: 15vw;
+            position: absolute;
+            left: 0px;
+            margin: 0px;
+        }
+        .button_group button {
+            width: 100%;
+            height: 15vw;
+            font-size: 2vw;
+        }
+        .button_in_menu {
+            display: inline-block;
+            width: 33.3%;
+    
+        }
+        .vnutri {
+            left: 0;
+            top: 20vw;
+            width: 100vw;
+            height: auto;
+        }
+        .for_slider {
+            width: 75vw;
+            height: 35vw;
+            left: 0;
+            top: 15vw;
+            margin: 0 12.5vw;
+        }
+        .menu {
+            width: 75vw;
+        }
+        h1 {
+            text-align: center;
+            font-size: 5vw;
+            margin: 0;
+        }
+        footer {
+            bottom: -5vw;
+        }
+        h6 {
+            text-align: center;
+            font-size: 3vw;
+            width: auto;
+            margin: 0;
+        }
+        .slider-container {
+            height: 35vw;
+            width: 75vw;
+            overflow: hidden;
+        }
+        p {
+            margin-left: 0;
+            margin: 0;
+            height: auto;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: "Book Antiqua";
+        }
+    }
+    
+    @media only screen and (min-width: 100px) and (max-width: 540px) {
+    
+        /*index*/
+        .button_group {
+            display: flex;
+            width: 100%;
+            height: 20vw;
+            position: absolute;
+            left: 0px;
+            margin: 0px;
+        }
+        .button_group button {
+            width: 100%;
+            height: 20vw;
+            font-size: 3vw;
+        }
+        .button_in_menu {
+            display: inline-block;
+            width: 33.3%;
+    
+        }
+        .vnutri {
+            left: 0;
+            top: 25vw;
+            width: 100vw;
+            height: auto;
+        }
+        .for_slider {
+            width: 80vw;
+            height: 35vw;
+            left: 0;
+            top: 15vw;
+            margin: 0 12.5vw;
+        }
+        .menu {
+            width: 80vw;
+        }
+         h1 {
+            text-align: center;
+            font-size: 5vw;
+            margin: 0;
+        }
+        footer {
+            bottom: -5vw;
+        }
+        h6 {
+            text-align: center;
+            font-size: 4vw;
+            width: auto;
+            margin: 0;
+        }
+        .slider-container {
+            height: 35vw;
+            width: 80vw;
+            overflow: hidden;
+        }
+        p {
+            margin: 0;
+            height: auto;
+            color: rgb(255, 255, 255);
+            text-align: center;
+            font-family: "Book Antiqua";
+        }
+    }
